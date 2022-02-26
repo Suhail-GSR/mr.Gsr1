@@ -1,9 +1,9 @@
 #!/usr/bin/python2
 # -*- coding: utf-8
 
-#AUTHOR : AZIM VAU (MR. ERROR)
+#AUTHOR : SUHAL-GSR
 #OPEN SOURCE :)
-#DON'T FORGET TO GIVE CREDIT TO MR. ERROR
+#DON'T FORGET TO GIVE CREDIT TO SUHAIL-GSR
 
 
 try:
@@ -53,7 +53,7 @@ def main():
 	print("\033[92;1m  [1] START CRACK")
 	print("\033[93;1m  [2] HOW TO GET ACCESS TOKEN")
 	print("\033[94;1m  [3] UPDATE TOOL")
-	print("\033[96;1m  [J] FACEBOOK SUHAIL-GSR \033[92;1m✘\033[91;1m✘")
+	print("\033[96;1m  [F] FACEBOOK SUHAIL-GSR \033[92;1m✘\033[91;1m✘")
 	print("\033[90;1m  [0] EXIT")
 	print("")
 	log_sel()
@@ -66,7 +66,7 @@ def log_sel():
 	elif sel =="1" or sel =="01":
 		token()
 	elif sel =="2" or sel =="02":
-		subprocess.check_output(["am", "start", "https://www.facebook.com/profile.php?id=100051098640211"])
+		subprocess.check_output(["am", "start", "https://www.facebook.com/114133313700086/posts/426873429092738"])
 		main()
 	elif sel =="3" or sel =="03":
 		import os
@@ -81,8 +81,8 @@ def log_sel():
 		except KeyboardInterrupt:
 			print("\033[91;1m\n YOUR DEVICE IS NOT SUPPORTED!\n")
 	        	main()
-	elif sel =="4" or sel =="04" or sel =="J" or sel =="j":
-		subprocess.check_output(["am", "start", "https://t.me/mrerrorgroup"])
+	elif sel =="4" or sel =="04" or sel =="F" or sel =="j":
+		subprocess.check_output(["am", "start", "https://www.facebook.com/profile.php?id=100051098640211"])
 		main()
 	elif sel =="0" or sel =="00":
 		xox("\n\t\033[91;1m GOOD BYE SEE YOU AGAIN :)")
