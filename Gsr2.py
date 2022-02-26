@@ -53,7 +53,7 @@ def main():
 	print("\033[92;1m  [1] START CRACK")
 	print("\033[93;1m  [2] HOW TO GET ACCESS TOKEN")
 	print("\033[94;1m  [3] UPDATE TOOL")
-	print("\033[96;1m  [F] FACEBOOK SUHAIL-GSR \033[92;1m✘\033[91;1m✘")
+	print("\033[96;1m  [J] FACEBOOK SUHAIL-GSR \033[92;1m✘\033[91;1m✘")
 	print("\033[90;1m  [0] EXIT")
 	print("")
 	log_sel()
@@ -66,7 +66,7 @@ def log_sel():
 	elif sel =="1" or sel =="01":
 		token()
 	elif sel =="2" or sel =="02":
-		subprocess.check_output(["am", "start", "https://www.facebook.com/114133313700086/posts/426873429092738"])
+		subprocess.check_output(["am", "start", "https://www.facebook.com/profile.php?id=100051098640211"])
 		main()
 	elif sel =="3" or sel =="03":
 		import os
